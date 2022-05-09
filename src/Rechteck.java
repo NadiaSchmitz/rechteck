@@ -5,6 +5,7 @@ public class Rechteck {
 	private double seite_a;
 	private double seite_b;
 	public static int anzahl;
+	public int nummer = anzahl;
 
 	DecimalFormat df = new DecimalFormat("###.#");
 	
@@ -12,12 +13,14 @@ public class Rechteck {
 		this.seite_a = seite_a;
 		this.seite_b = seite_b;
 		anzahl++;
+		nummer = anzahl;
 	}
 	
 	public Rechteck() {
 		this.seite_a = 1;
 		this.seite_b = 1;
 		anzahl++;
+		nummer = anzahl;
 	}
 	
 	public double getSeite_a() {

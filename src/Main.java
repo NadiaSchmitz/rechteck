@@ -130,12 +130,30 @@ public class Main {
 		System.out.println(Rechteck.anzahl);
 		System.out.println();
 		
+		System.out.printf("%-15s %-15s", "Rechteck", "Nummer");
+		System.out.println();
+		System.out.printf("%-15s %-15s", "rechteck_1", rechteck_1.nummer);
+		System.out.println();
+		System.out.printf("%-15s %-15s", "rechteck_2", rechteck_2.nummer);
+		System.out.println();
+		System.out.printf("%-15s %-15s", "rechteck_3", rechteck_3.nummer);
+		System.out.println();
+		System.out.printf("%-15s %-15s", "rechteck_4", rechteck_4.nummer);
+		System.out.println();
+		System.out.printf("%-15s %-15s", "rechteck_5", rechteck_5.nummer);
+		System.out.println();
+		System.out.printf("%-15s %-15s", "rechteck_6", rechteck_6.nummer);
+		System.out.println();
+		System.out.printf("%-15s %-15s", "rechteck_7", rechteck_7.nummer);
+		System.out.println();
+		System.out.println();
+		
 		System.out.println("Aufgabe +");
 		System.out.println("---------------------------------------------------");
 		
 //		Zeichen Rechteck		
 		
-		Rechteck rechteck_8 = new Rechteck(9,11);
+		Rechteck rechteck_8 = new Rechteck(8,11);
 		rechteck_8.zeichenRechteck();
 	}
 
